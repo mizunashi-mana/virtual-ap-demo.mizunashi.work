@@ -1,0 +1,19 @@
+{
+    "subject": "acct:main@virtual-ap-demo-mizunashi-work.pages.dev",
+    "aliases": [
+        "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+        "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json"
+        }
+    ]
+}
