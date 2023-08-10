@@ -3,8 +3,6 @@
         "https://www.w3.org/ns/activitystreams",
         "https://w3id.org/security/v1",
         {
-            "schema": "http://schema.org#",
-            "PropertyValue": "schema:PropertyValue",
             "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
             "toot": "http://joinmastodon.org/ns#",
             "featured": {
@@ -23,9 +21,16 @@
                 "@id": "as:movedTo",
                 "@type": "@id"
             },
+            "schema": "http://schema.org#",
+            "PropertyValue": "schema:PropertyValue",
             "value": "schema:value",
             "discoverable": "toot:discoverable",
             "Device": "toot:Device",
+            "Ed25519Signature": "toot:Ed25519Signature",
+            "Ed25519Key": "toot:Ed25519Key",
+            "Curve25519Key": "toot:Curve25519Key",
+            "EncryptedMessage": "toot:EncryptedMessage",
+            "publicKeyBase64": "toot:publicKeyBase64",
             "deviceId": "toot:deviceId",
             "claim": {
                 "@type": "@id",
@@ -49,16 +54,28 @@
             "suspended": "toot:suspended"
         }
     ],
-    "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json",
+    "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json",
     "type": "Person",
-    "preferredUsername": "main",
-    "name": "",
+    "following": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "followers": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "inbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "outbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "featured": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "featuredTags": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "preferredUsername": "main.json",
+    "name": "main.json",
     "summary": "",
     "url": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
     "manuallyApprovesFollowers": false,
     "discoverable": false,
     "published": "2023-08-07T00:00:00Z",
+    "devices": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
     "movedTo": "https://mstdn.mizunashi.work/users/mizunashi_mana",
+    "publicKey": {
+        "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json#main-key",
+        "owner": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcce3F6A9ZFVG/q7t/4V\nkCQ0fs7RlLhgynbH/0BBqEq+PUOj77d42bw2LEv/gBE9bHeqyXlPDuZ6qFtzR6Ux\n6z7jjvz7zR0C0XkfmGXiWhMZXt/jHKqiIjVipo82ysI6blsA6F/y7m5ASniPSITk\nvs82dodLA21h3XccFJldtELdPPX3KDeCHN0hvlXHj7R0Z4kNPNleg9xppQ3Ry8es\nOZtJcUHeWRbeVabIVhY7Y75pcdsfIQc3rcXtLkS5iU6bAVAl1riCjWS2XXQDufdG\nrBEiBSFn+sf6ulRy+bzYHgCW1pNr8L7HqWkMcwGxKWyfZ9dhi8fIqYlli8Y1EaHo\ngwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
     "tag": [],
     "attachment": []
 }

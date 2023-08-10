@@ -1,8 +1,8 @@
 {
-    "subject": "acct:main@virtual-ap-demo-mizunashi-work.pages.dev",
+    "subject": "acct:main.json@virtual-ap-demo-mizunashi-work.pages.dev",
     "aliases": [
         "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-        "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json"
+        "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json"
     ],
     "links": [
         {
@@ -13,7 +13,7 @@
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json"
+            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json"
         }
     ]
 }
