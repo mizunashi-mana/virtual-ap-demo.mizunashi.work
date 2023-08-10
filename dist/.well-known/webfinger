@@ -14,6 +14,10 @@
             "rel": "self",
             "type": "application/activity+json",
             "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://virtual-ap-demo-mizunashi-work.pages.dev/authorize_interaction?uri={uri}"
         }
     ]
 }
