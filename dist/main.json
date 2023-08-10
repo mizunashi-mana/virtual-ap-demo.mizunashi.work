@@ -1,1 +1,64 @@
-{}
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://w3id.org/security/v1",
+        {
+            "schema": "http://schema.org#",
+            "PropertyValue": "schema:PropertyValue",
+            "manuallyApprovesFollowers": "as:manuallyApprovesFollowers",
+            "toot": "http://joinmastodon.org/ns#",
+            "featured": {
+                "@id": "toot:featured",
+                "@type": "@id"
+            },
+            "featuredTags": {
+                "@id": "toot:featuredTags",
+                "@type": "@id"
+            },
+            "alsoKnownAs": {
+                "@id": "as:alsoKnownAs",
+                "@type": "@id"
+            },
+            "movedTo": {
+                "@id": "as:movedTo",
+                "@type": "@id"
+            },
+            "value": "schema:value",
+            "discoverable": "toot:discoverable",
+            "Device": "toot:Device",
+            "deviceId": "toot:deviceId",
+            "claim": {
+                "@type": "@id",
+                "@id": "toot:claim"
+            },
+            "fingerprintKey": {
+                "@type": "@id",
+                "@id": "toot:fingerprintKey"
+            },
+            "identityKey": {
+                "@type": "@id",
+                "@id": "toot:identityKey"
+            },
+            "devices": {
+                "@type": "@id",
+                "@id": "toot:devices"
+            },
+            "messageFranking": "toot:messageFranking",
+            "messageType": "toot:messageType",
+            "cipherText": "toot:cipherText",
+            "suspended": "toot:suspended"
+        }
+    ],
+    "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/main.json",
+    "type": "Person",
+    "preferredUsername": "main",
+    "name": "",
+    "summary": "",
+    "url": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "manuallyApprovesFollowers": false,
+    "discoverable": false,
+    "published": "2023-08-07T00:00:00Z",
+    "movedTo": "https://mstdn.mizunashi.work/users/mizunashi_mana",
+    "tag": [],
+    "attachment": []
+}
