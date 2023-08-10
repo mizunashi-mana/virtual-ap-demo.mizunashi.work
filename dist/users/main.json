@@ -56,12 +56,12 @@
     ],
     "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json",
     "type": "Person",
-    "following": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-    "followers": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-    "inbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-    "outbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-    "featured": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-    "featuredTags": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "following": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/following",
+    "followers": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/followers",
+    "inbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/inbox",
+    "outbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/outbox",
+    "featured": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/collections/featured",
+    "featuredTags": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/collections/tags",
     "preferredUsername": "main.json",
     "name": "main.json",
     "summary": "",
@@ -69,7 +69,7 @@
     "manuallyApprovesFollowers": false,
     "discoverable": false,
     "published": "2023-08-07T00:00:00Z",
-    "devices": "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
+    "devices": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/collections/devices",
     "movedTo": "https://mstdn.mizunashi.work/users/mizunashi_mana",
     "publicKey": {
         "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json#main-key",
@@ -79,6 +79,6 @@
     "tag": [],
     "attachment": [],
     "endpoints": {
-      "sharedInbox": "https://mstdn.mizunashi.work/inbox"
+      "sharedInbox": "https://virtual-ap-demo-mizunashi-work.pages.dev/inbox"
     }
 }
