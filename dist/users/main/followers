@@ -1,7 +1,0 @@
-{
-    "@context": "https://www.w3.org/ns/activitystreams",
-    "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/followers",
-    "type": "OrderedCollection",
-    "totalItems": 0,
-    "first": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main/followers?page=1"
-}

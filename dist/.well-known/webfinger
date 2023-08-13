@@ -1,8 +1,8 @@
 {
-    "subject": "acct:main.json@virtual-ap-demo-mizunashi-work.pages.dev",
+    "subject": "acct:virtual-acct@virtual-ap-demo-mizunashi-work.pages.dev",
     "aliases": [
         "https://virtual-ap-demo-mizunashi-work.pages.dev/index.html",
-        "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json"
+        "https://virtual-ap-demo-mizunashi-work.pages.dev/static/users/virtual-acct.json"
     ],
     "links": [
         {
@@ -13,11 +13,7 @@
         {
             "rel": "self",
             "type": "application/activity+json",
-            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/users/main.json"
-        },
-        {
-            "rel": "http://ostatus.org/schema/1.0/subscribe",
-            "template": "https://virtual-ap-demo-mizunashi-work.pages.dev/authorize_interaction?uri={uri}"
+            "href": "https://virtual-ap-demo-mizunashi-work.pages.dev/static/users/virtual-acct.json"
         }
     ]
 }

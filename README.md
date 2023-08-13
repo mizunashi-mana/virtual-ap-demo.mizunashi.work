@@ -1,5 +1,5 @@
-# Virtual AP Demo
+# Virtual ActivityPub Demo
 
 A static AP implementation. The person actor is available:
 
-`@main.json@virtual-ap-demo-mizunashi-work.pages.dev`
+`@virtual-acct@virtual-ap-demo-mizunashi-work.pages.dev`
