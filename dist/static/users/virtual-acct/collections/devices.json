@@ -1,7 +1,0 @@
-{
-    "@context": "https://www.w3.org/ns/activitystreams",
-    "id": "https://virtual-ap-demo-mizunashi-work.pages.dev/static/users/virutal-acct/collections/devices.json",
-    "type": "Collection",
-    "totalItems": 0,
-    "items": []
-}
